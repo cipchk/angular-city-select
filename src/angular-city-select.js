@@ -3815,6 +3815,8 @@ https://github.com/cipchk/angular-city-select
 							ctrl.to(2, ctrl.panelData[idx][0][0]);
 						}
 					}
+
+					ctrl.scope.$emit('onCitySelected', ctrl.selected);
 				}
 
 				ctrl.isActive = function(id) {
@@ -3825,7 +3827,7 @@ https://github.com/cipchk/angular-city-select
 				initData();
 
 				ctrl.render = function(val) {
-					if (!val) return ;
+					if (!val) return;
 
 					var isId = true;
 					if (angular.isArray(val)) { // 按中文分析
@@ -3906,6 +3908,8 @@ https://github.com/cipchk/angular-city-select
 						ngModel.$render = function() {
 							$select.render(ngModel.$viewValue);
 						}
+
+						$select.scope = scope;
 
 						scope.$watch('$select.selected', function(newValue) {
 							if (ngModel.$viewValue !== newValue) {
