@@ -30,6 +30,17 @@ $scope.item = {
 $scope.item.city = '340203';
 ```
 
+onCitySelected 事件
+
+```javascript
+app.controller('myController', ['$scope', function($scope){
+
+	$scope.$on('onCitySelected', function(event, item) {
+	}
+	
+}]);
+```
+
 bower install
 =================
 
