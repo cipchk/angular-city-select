@@ -7,7 +7,7 @@ AngularJS 省份城市联动
 使用说明
 =================
 
-添加angular.xheditor模块到你的应用。
+添加`angular.city.select`模块到你的应用。
 
 ```javascript
 angular.module('myApp', ['angular.city.select', ...]);
