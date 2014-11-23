@@ -1,6 +1,7 @@
 {
-  "name": "angular-city-select",
+  "name": "angular.city.select",
   "version": "1.0.0",
+  "main": "angular-city-select.js",
   "authors": [
     "cipchk <cipchk@gmail.com>"
   ],
@@ -15,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
+    "angularjs": "~1.3.2",
     "angular-bootstrap": "~0.12.0",
     "bootstrap": "~3.3.1"
   }
