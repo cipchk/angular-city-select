@@ -3869,7 +3869,7 @@ https://github.com/cipchk/angular-city-select
 				return {
 
 					restrict: 'E',
-					template: '<div class="city-select" ng-class="{\'open\': $select.open}">{{$select.selected}}' +
+					template: '<div class="city-select" ng-class="{\'open\': $select.open}">' +
 						' <div class="form-control input-sm" ng-click="$select.activate()">{{ $select.selected.cn.length > 0 ? $select.selected.cn.join(\'/\') : $select.placeholder}} <span class="caret"></span></div>' +
 						'	<div class="city-select-drop">' +
 						'		<div class="city-select-tab">' +
