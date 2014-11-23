@@ -1,0 +1,209 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '—-save-dev',
+1 verbose cli   'gulp' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ '—-save-dev', null ]
+7 verbose cache add name=undefined spec="—-save-dev" args=["—-save-dev",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '—-save-dev',
+8 verbose parsed url   path: '—-save-dev',
+8 verbose parsed url   href: '—-save-dev' }
+9 verbose cache add [ 'gulp', null ]
+10 verbose cache add name=undefined spec="gulp" args=["gulp",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'gulp',
+11 verbose parsed url   path: 'gulp',
+11 verbose parsed url   href: 'gulp' }
+12 silly lockFile 11e8b0fb-save-dev —-save-dev
+13 verbose lock —-save-dev C:\Users\cipchk\AppData\Roaming\npm-cache\11e8b0fb-save-dev.lock
+14 silly lockFile 9750c68d-gulp gulp
+15 verbose lock gulp C:\Users\cipchk\AppData\Roaming\npm-cache\9750c68d-gulp.lock
+16 silly lockFile 11e8b0fb-save-dev —-save-dev
+17 silly lockFile 11e8b0fb-save-dev —-save-dev
+18 silly lockFile 9750c68d-gulp gulp
+19 silly lockFile 9750c68d-gulp gulp
+20 verbose addNamed [ '—-save-dev', '' ]
+21 verbose addNamed [ null, '*' ]
+22 silly lockFile 9d36908c-save-dev —-save-dev@
+23 verbose lock —-save-dev@ C:\Users\cipchk\AppData\Roaming\npm-cache\9d36908c-save-dev.lock
+24 verbose addNamed [ 'gulp', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile 72f4391e-gulp gulp@
+27 verbose lock gulp@ C:\Users\cipchk\AppData\Roaming\npm-cache\72f4391e-gulp.lock
+28 silly addNameRange { name: '—-save-dev', range: '*', hasData: false }
+29 verbose request where is /—-save-dev
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 30d982782dd1fc0d
+32 verbose url raw /—-save-dev
+33 verbose url resolving [ 'https://registry.npmjs.org/', './%E2%80%94-save-dev' ]
+34 verbose url resolved https://registry.npmjs.org/%E2%80%94-save-dev
+35 verbose request where is https://registry.npmjs.org/%E2%80%94-save-dev
+36 info trying registry request attempt 1 at 18:04:50
+37 http GET https://registry.npmjs.org/%E2%80%94-save-dev
+38 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+39 verbose request where is /gulp
+40 verbose request registry https://registry.npmjs.org/
+41 verbose url raw /gulp
+42 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+43 verbose url resolved https://registry.npmjs.org/gulp
+44 verbose request where is https://registry.npmjs.org/gulp
+45 info trying registry request attempt 1 at 18:04:50
+46 verbose etag "E8C5XOHHZ3ALJL7PKUYGRQ3AH"
+47 http GET https://registry.npmjs.org/gulp
+48 http 304 https://registry.npmjs.org/gulp
+49 silly registry.get cb [ 304,
+49 silly registry.get   { date: 'Sun, 23 Nov 2014 10:04:51 GMT',
+49 silly registry.get     server: 'Apache',
+49 silly registry.get     via: '1.1 varnish',
+49 silly registry.get     'last-modified': 'Sun, 23 Nov 2014 10:04:52 GMT',
+49 silly registry.get     'cache-control': 'max-age=60',
+49 silly registry.get     etag: '"E8C5XOHHZ3ALJL7PKUYGRQ3AH"',
+49 silly registry.get     age: '0',
+49 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+49 silly registry.get     'x-cache': 'HIT',
+49 silly registry.get     'x-cache-hits': '1',
+49 silly registry.get     'x-timer': 'S1416737091.878633,VS0,VE178',
+49 silly registry.get     vary: 'Accept',
+49 silly registry.get     'content-length': '0',
+49 silly registry.get     'keep-alive': 'timeout=10, max=50',
+49 silly registry.get     connection: 'Keep-Alive' } ]
+50 verbose etag https://registry.npmjs.org/gulp from cache
+51 http 404 https://registry.npmjs.org/%E2%80%94-save-dev
+52 verbose headers { date: 'Sun, 23 Nov 2014 10:04:52 GMT',
+52 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+52 verbose headers   'content-type': 'application/json',
+52 verbose headers   'cache-control': 'max-age=0',
+52 verbose headers   'content-length': '52',
+52 verbose headers   'accept-ranges': 'bytes',
+52 verbose headers   via: '1.1 varnish',
+52 verbose headers   age: '0',
+52 verbose headers   'x-served-by': 'cache-ty68-TYO',
+52 verbose headers   'x-cache': 'MISS',
+52 verbose headers   'x-cache-hits': '0',
+52 verbose headers   'x-timer': 'S1416737091.947799,VS0,VE119',
+52 verbose headers   'keep-alive': 'timeout=10, max=50',
+52 verbose headers   connection: 'Keep-Alive' }
+53 silly registry.get cb [ 404,
+53 silly registry.get   { date: 'Sun, 23 Nov 2014 10:04:52 GMT',
+53 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+53 silly registry.get     'content-type': 'application/json',
+53 silly registry.get     'cache-control': 'max-age=0',
+53 silly registry.get     'content-length': '52',
+53 silly registry.get     'accept-ranges': 'bytes',
+53 silly registry.get     via: '1.1 varnish',
+53 silly registry.get     age: '0',
+53 silly registry.get     'x-served-by': 'cache-ty68-TYO',
+53 silly registry.get     'x-cache': 'MISS',
+53 silly registry.get     'x-cache-hits': '0',
+53 silly registry.get     'x-timer': 'S1416737091.947799,VS0,VE119',
+53 silly registry.get     'keep-alive': 'timeout=10, max=50',
+53 silly registry.get     connection: 'Keep-Alive' } ]
+54 silly lockFile 9d36908c-save-dev —-save-dev@
+55 silly lockFile 9d36908c-save-dev —-save-dev@
+56 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+57 silly addNameRange versions [ 'gulp',
+57 silly addNameRange   [ '0.0.1',
+57 silly addNameRange     '0.0.2',
+57 silly addNameRange     '0.0.3',
+57 silly addNameRange     '0.0.4',
+57 silly addNameRange     '0.0.5',
+57 silly addNameRange     '0.0.7',
+57 silly addNameRange     '0.0.8',
+57 silly addNameRange     '0.0.9',
+57 silly addNameRange     '0.1.0',
+57 silly addNameRange     '0.2.0',
+57 silly addNameRange     '1.0.0',
+57 silly addNameRange     '1.1.0',
+57 silly addNameRange     '1.2.0',
+57 silly addNameRange     '1.2.1',
+57 silly addNameRange     '2.0.0',
+57 silly addNameRange     '2.0.1',
+57 silly addNameRange     '2.1.0',
+57 silly addNameRange     '2.2.0',
+57 silly addNameRange     '2.3.0',
+57 silly addNameRange     '2.4.0',
+57 silly addNameRange     '2.4.1',
+57 silly addNameRange     '2.6.0',
+57 silly addNameRange     '2.6.1',
+57 silly addNameRange     '2.7.0',
+57 silly addNameRange     '3.0.0',
+57 silly addNameRange     '3.1.1',
+57 silly addNameRange     '3.1.2',
+57 silly addNameRange     '3.1.3',
+57 silly addNameRange     '3.1.4',
+57 silly addNameRange     '3.2.0',
+57 silly addNameRange     '3.2.1',
+57 silly addNameRange     '3.2.2',
+57 silly addNameRange     '3.2.3',
+57 silly addNameRange     '3.2.4',
+57 silly addNameRange     '3.2.5',
+57 silly addNameRange     '3.3.0',
+57 silly addNameRange     '3.3.1',
+57 silly addNameRange     '3.3.2',
+57 silly addNameRange     '3.3.4',
+57 silly addNameRange     '3.4.0',
+57 silly addNameRange     '3.5.0',
+57 silly addNameRange     '3.5.1',
+57 silly addNameRange     '3.5.2',
+57 silly addNameRange     '3.5.5',
+57 silly addNameRange     '3.5.6',
+57 silly addNameRange     '3.6.0',
+57 silly addNameRange     '3.6.1',
+57 silly addNameRange     '3.6.2',
+57 silly addNameRange     '3.7.0',
+57 silly addNameRange     '3.8.0',
+57 silly addNameRange     '3.8.1',
+57 silly addNameRange     '3.8.2',
+57 silly addNameRange     '3.8.3',
+57 silly addNameRange     '3.8.4',
+57 silly addNameRange     '3.8.5',
+57 silly addNameRange     '3.8.6',
+57 silly addNameRange     '3.8.7',
+57 silly addNameRange     '3.8.8',
+57 silly addNameRange     '3.8.9',
+57 silly addNameRange     '3.8.10' ] ]
+58 verbose addNamed [ 'gulp', '3.8.10' ]
+59 verbose addNamed [ '3.8.10', '3.8.10' ]
+60 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+61 verbose lock gulp@3.8.10 C:\Users\cipchk\AppData\Roaming\npm-cache\f843d0d7-gulp-3-8-10.lock
+62 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+63 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+64 silly lockFile 72f4391e-gulp gulp@
+65 silly lockFile 72f4391e-gulp gulp@
+66 error 404 404 Not Found: %E2%80%94-save-dev
+66 error 404
+66 error 404 '%E2%80%94-save-dev' is not in the npm registry.
+66 error 404 You should bug the author to publish it
+66 error 404 It was specified as a dependency of 'angular-city-select'
+66 error 404
+66 error 404 Note that you can also install from a
+66 error 404 tarball, folder, or http url, or git url.
+67 error System Windows_NT 6.2.9200
+68 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "—-save-dev" "gulp"
+69 error cwd C:\Users\cipchk\Desktop\angularjs-city-select
+70 error node -v v0.10.33
+71 error npm -v 1.4.28
+72 error code E404
+73 verbose exit [ 1, true ]
