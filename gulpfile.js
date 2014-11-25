@@ -54,8 +54,8 @@ gulp.task('watch', function () {
               if (err) { return console.log('1' + err); }
 
               gulp.watch(source.scripts, ['scripts']);
-              gulp.watch(source.scripts, ['styles']);
-              gulp.watch(source.scripts, ['demo']);
+              gulp.watch(source.less, ['styles']);
+              gulp.watch(source.demo, ['demo']);
 
           });
     }

@@ -1,4 +1,6 @@
-﻿.city-select {
+﻿@city-select-drop-index:            3000;
+
+.city-select {
     position: relative;
     cursor: pointer;
     font-size: 12px;
@@ -7,7 +9,7 @@
 	    display:none;
 		position: absolute;
 		width: 100%;
-		z-index: 9999;
+		z-index: @city-select-drop-index;
     }
 
     &.open {
