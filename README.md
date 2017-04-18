@@ -1,4 +1,4 @@
-** 已经提供 [Angular2](https://github.com/cipchk/ngx-address) 版本，Angular1版本不再维护！ **
+**已经提供 [Angular2](https://github.com/cipchk/ngx-address) 版本，Angular1版本不再维护！**
 
 
 
